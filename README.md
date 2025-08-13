@@ -2,6 +2,8 @@
 
 This repository contains the source code for the firmware of the VL1 Touch Controller, a Eurorack module. The firmware is Arduino-based and was originally developed for internal use by the module's creators.
 
+https://pittsburghmodular.com/lifeforms-touch-controller
+
 ## Overview
 
 The VL1 Touch Controller is a capacitive touch-based Eurorack module for generating control voltages, gates, and sequences in modular synthesizers. This firmware (`tcFirmware_vl.ino`) handles capacitive sensing, sequencing, clocking, and output control for the module's features, including mono/duo modes, Y-axis position detection, and gate outputs.
