@@ -25,7 +25,7 @@ This firmware was shared by the company in response to a community request for o
 
 ## Hardware Requirements
 
-- **Board:** Arduino Mega (based on pin usage, e.g., pins up to 69 and analog pins like A10).
+- **Board:** For the code to compile you'll need to select a DUE card
 - **Libraries:** Requires the [CapacitiveSensor](https://github.com/PaulStoffregen/CapacitiveSensor) library (included via `#include <CapacitiveSensor.h>`).
 - **Pins:** Configured for specific inputs/outputs (e.g., touch sensors on pins 44-52, axis on A0-A9, outputs on 3-17, etc.). See the `Pins` section in the code for details.
 - **Module:** Designed for the VL1 Touch Controller hardware, including capacitive pads, LEDs, buttons, and CV/gate jacks.
@@ -36,7 +36,7 @@ This firmware was shared by the company in response to a community request for o
 2. **Arduino IDE Setup:**
    - Open the `.ino` file in the Arduino IDE.
    - Install the CapacitiveSensor library via the Library Manager (Search for "CapacitiveSensor").
-   - Select "Arduino Mega or Mega 2560" as the board.
+   - Select "Arduino Due (Native USB Port)" as the board.
    - Adjust any settings (e.g., `switchSamples`, `switchThreshold`) for calibration if needed.
 3. **Compile and Upload:**
    - Verify and upload to your Arduino Mega connected to the module.
