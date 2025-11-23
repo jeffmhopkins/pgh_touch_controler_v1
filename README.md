@@ -1,5 +1,7 @@
 # VL1 Touch Controller Firmware
 
+DO NOT USE THE HEAD VERSION, USE THE INITAL UPLOAD IF YOU WANT THE DEFAULT FIRMWARE. THIS IS UNTESTED
+
 This repository contains the source code for the firmware of the VL1 Touch Controller, a Eurorack module. The firmware is Arduino-based and was originally developed for internal use by the module's creators.
 
 https://pittsburghmodular.com/lifeforms-touch-controller
